@@ -1,0 +1,71 @@
+{
+  "type":        "module",
+  "name":        "@teamcoder/completevalidator",
+  "version":     "1.0.0",
+  "description": "This module is small but easy to use. The purpose of this module is to serve as a container for all my validator modules. That has thirteen validator all in one module, the validators is as follows: bigger, contains, equal, longer, mqtt topic, regex, smaller, not contain, not equal, shorter, type, same size and not same size.",
+  "main":         "completevalidator.js",
+
+  "keywords": [
+    "value",
+    "bigger", 
+    "contains", 
+    "equal", 
+    "longer",
+    "mqtt",
+    "topic",
+    "regex",
+    "smaller",
+    "not",
+    "shorter",
+    "type",
+    "same",
+    "size",
+    "string",
+    "number",
+    "boolean",
+    "array",
+    "object",
+    "NaN",
+    "function",
+    "validator",
+    "node.js",
+    "javascript"
+],
+
+"author":       "CreepyCoderMC",
+"license":      "CC-BY-NC-ND-4.0",
+"homepage":     "https://github.com/CreepyCoderMC",
+"url":          "https://github.com/CreepyCoderMC/completevalidator/issues",
+"email":        "creepycodermc@gmail.com",
+
+"funding": {
+"type":       "PayPal Donation",
+"url":        "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+},
+
+"repository": {
+"type":       "git",
+"url":        "https://github.com/CreepyCoderMC/completevalidator"
+},
+
+"scripts": {
+"test":       "node test.js"
+},
+
+  "dependencies": {
+    "@teamcoder/biggervalidator": "^1.0.10",
+    "@teamcoder/containvalidator": "^1.0.6",
+    "@teamcoder/equalvalidator": "^1.0.7",
+    "@teamcoder/longervalidator": "^1.0.8",
+    "@teamcoder/mqtttopicvalidator": "^1.0.5",
+    "@teamcoder/notcontainvalidator": "^1.0.6",
+    "@teamcoder/notequalvalidator": "^1.0.3",
+    "@teamcoder/notsamesizevalidator": "^1.0.0",
+    "@teamcoder/regexvalidator": "^1.0.4",
+    "@teamcoder/samesizevalidator": "^1.0.1",
+    "@teamcoder/shortervalidator": "^1.0.3",
+    "@teamcoder/smallervalidator": "^1.0.4",
+    "@teamcoder/typevalidator": "^1.0.4"
+  }
+
+}
