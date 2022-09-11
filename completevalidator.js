@@ -228,6 +228,7 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       11 September 2022           Official first release
+  *     1.0.1       11 September 2022           Need to republish under new version
   */
  
 // Import all validator modules
